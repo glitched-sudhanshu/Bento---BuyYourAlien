@@ -1,0 +1,75 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    color: red;
+}
+
+header {
+    background-color: green;
+    animation: fade-in 1s;
+}
+
+#parent-list {
+    border-color: bisque;
+    border-width: 1px;
+}
+
+.list-item-villian {
+    color: red;
+    font-family: 'Barlow', sans-serif;
+}
+
+.list-item {
+    color: blueviolet;
+}
+
+ul .list-item {
+    color: burlywood;
+}
+
+.heading {
+    font-size: 30px;
+    color: darkolivegreen;
+    font-family: 'Barlow', sans-serif;
+    padding-left: 20px;
+    border: 2px solid black;
+    margin-left: 20px;
+
+}
+
+.input {
+    display: block;
+}
+
+.input:focus {
+    transform: scale(1.3);
+}
+
+.headText {
+    text-align: center;
+}
+
+.introImage {
+    animation: fade-in 1s;
+}
+
+.introImage,
+.btnBookNow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.2s;
+}
+
+.btnBookNow:hover {
+    cursor: pointer;
+    transform: translateX(20px) scale(1.5) rotate(20deg);
+}
